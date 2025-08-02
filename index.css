@@ -1,0 +1,121 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+}
+.container
+{
+   width: 90%;
+   max-width: 800px;
+   margin: auto;
+   padding: 25px;
+   background-color: #ffffff;
+   border-radius: 12px;
+   box-shadow: 0 0 20px rgba(255, 182, 193, 0.3);
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c71585;
+}
+form label
+{
+    display: block;
+    margin: 10px 0 5px;
+    color: #c71585;
+    font-weight: bold;
+}
+.info
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0b0ff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #fffafd;
+    margin-bottom: 15px;
+}
+.btn
+{
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+form button:hover {
+  background-color: #ff1493; 
+}
+.search
+{
+    margin: 30px 0 15px;
+}
+.search input
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d8bfd8;
+    font-size: 16px;
+    background-color: #fef9ff;
+}
+.tasklist
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.task
+{
+  background-color: #fff0f5;
+  padding: 15px;
+  border-left: 6px solid #ffb6c1;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
+}
+.task h3
+{
+  margin: 0 0 5px;
+  color: #d63384;
+}
+.task p
+{
+  margin: 5px 0;
+  color: #6c567b;
+}
+.task img
+{
+  max-width: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.task button
+{
+  position: absolute;
+  top: 15px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task .edit
+{
+  right: 80px;
+  background-color: #dabfff;
+  color: #000;
+}
+
+.task .delete
+{
+  right: 15px;
+  background-color: #ff6f91;
+  color: #fff;
+}
