@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo Managment App</h1>
+        <form id="taskform">
+            <input type="hidden" id="taskId" value="">
+            <label for="title">Task Title</label>
+            <input type="text" class="info" id="title" required >
+            <label for="description">Task taskDescription</label>
+            <textarea id="description" class="info"></textarea>
+            <label for="priority">Task priority</label>
+            <select id="priority" class="info">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <label for="status">Task Status</label>
+            <select id="status" class="info">
+                <option value="To do">It didn't start yet</option>
+                <option value="in progress">In Progress</option>
+                <option value="done">Done</option>
+            </select>
+            <label for="images">Enter Task's Image</label>
+            <input type="file" id="images" class="info" accept="image/*">
+            <button type="submit" class="btn">Save The Task</button>
+            </form>   
+
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Find a task with the title...">
+            </div>
+
+            <div id="tasklist" class="tasklist">
+
+            </div>
+     </div>
+      <script src="main.js"></script>
+</body>
+</html>
